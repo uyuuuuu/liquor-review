@@ -1,0 +1,17 @@
+jp\uyuu\Liquor.class
+jp\uyuu\Report$NameSelect.class
+jp\uyuu\Report$CreateAction.class
+jp\uyuu\Report$FavAction.class
+jp\uyuu\Report$SaveAction.class
+jp\uyuu\Report$ExitAction.class
+jp\uyuu\Page.class
+jp\uyuu\Report$OpenAction.class
+jp\uyuu\Report$TweetAction.class
+jp\uyuu\Report$AddAction.class
+jp\uyuu\Report$SearchAction.class
+jp\uyuu\Report$FilterSelect.class
+jp\uyuu\Report$RemoveAction.class
+jp\uyuu\Report.class
+jp\uyuu\Report$CountAction.class
+jp\uyuu\Report$UpdateAction.class
+jp\uyuu\Report$StarAction.class

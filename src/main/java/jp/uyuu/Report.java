@@ -5,6 +5,7 @@ import java.awt.Desktop;
 import java.awt.Dimension;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URI;
@@ -52,7 +53,7 @@ public class Report extends JFrame {
 		JFrame w = new Report("飲んだよデータベース");
 		w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		w.setMinimumSize(new Dimension(800, 500));
-		w.setIconImage(new ImageIcon("src/main/java/jp/uyuu/liquorIcon.png").getImage());
+		w.setIconImage(new ImageIcon("./liquorIcon.png").getImage());
 		w.setSize(800, 500);
 		w.setVisible(true);
 	}
@@ -320,7 +321,7 @@ public class Report extends JFrame {
 		}
 
 		public void actionPerformed(ActionEvent e) {
-			JFileChooser fileChooser = new JFileChooser("."); // カレントディレクトリを指定してファイルチューザを生成
+			JFileChooser fileChooser = new JFileChooser(new File("").getAbsolutePath()); // カレントディレクトリを指定してファイルチューザを生成
 			fileChooser.setFileSelectionMode(JFileChooser.FILES_ONLY); // モードを設定
 			fileChooser.setDialogTitle("データファイルを選択"); // タイトルを指定
 
